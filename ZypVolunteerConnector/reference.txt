@@ -1,0 +1,121 @@
+https://stackoverflow.com/questions/23102833/how-to-scrape-a-website-which-requires-login-using-python-and-beautifulsoup
+
+https://www.thepythoncode.com/article/automate-login-to-websites-using-selenium-in-python
+
+https://medium.com/analytics-vidhya/automate-login-system-using-selenium-webdriver-in-python-2019-8844718b06e
+
+https://chromedriver.chromium.org/downloads
+
+https://www.businessinsider.com/guides/tech/what-version-of-google-chrome-do-i-have
+
+https://www.browserstack.com/guide/python-selenium-to-run-web-automation-test
+
+https://stackoverflow.com/questions/30002313/selenium-finding-elements-by-class-name-in-python
+
+https://stackoverflow.com/questions/72754651/attributeerror-webdriver-object-has-no-attribute-find-element-by-xpath
+
+https://www.tutorialspoint.com/how-to-click-button-selenium-python#:~:text=We%20can%20click%20a%20button,is%20represented%20by%20button%20tagname.
+
+https://stackoverflow.com/questions/73223578/selenium-get-all-child-elements-from-div-class/73224247
+
+https://stackoverflow.com/questions/8270092/remove-all-whitespace-in-a-string
+
+https://stackoverflow.com/questions/31361432/python-selenium-create-loop-to-click-through-links-on-a-page-and-press-button-on
+
+https://stackoverflow.com/questions/58717379/how-to-do-loop-with-click-in-selenium
+
+https://medium.com/analytics-vidhya/web-scraping-using-python-and-selenium-xpath-f315f63ac229
+
+https://stackoverflow.com/questions/13960326/how-can-i-parse-a-website-using-selenium-and-beautifulsoup-in-python
+
+https://www.numpyninja.com/post/pagination-using-selenium-python
+
+https://able.bio/rhett/check-if-string-contains-a-substring-in-python--03jrtz1#:~:text=The%20simplest%20way%20to%20check,%3A%20print('Word%20found.
+
+https://stackoverflow.com/questions/23669024/how-to-strip-a-specific-word-from-a-string
+
+https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_csv.html
+
+https://stackoverflow.com/questions/12211781/how-to-maximize-window-in-chrome-using-webdriver-python
+
+------
+# //*[@id="content"]/section[2]/div/article/form
+# //*[@id="content"]/section[2]/div/article/form/div[2]/button
+
+# /html/body/section/section[2]/div/article/form
+# /html/body/section/section[2]/div/article/form/div[2]/button
+
+xpath = driver.find_element('xpath','//*[@id="content"]/section[2]/div/article/form/div[2]/button');
+print(xpath);
+
+xpath.click()
+
+# Monthly Report
+# //*[@id="id_month"]
+# //*[@id="id_month"]/option[1]
+
+---------------------
+driver.get("https://www.volunteerconnector.org/organizations/2927/applications/page-1?status=completed&opportunity=&volunteer=&order=-when")
+
+driver.find_element("xpath",'//*[@id="content"]/div/div/div[2]/article/section[2]/div[2]').text.split("\n")
+
+['Kane Williams',
+ 'Content Creator - Photographer',
+ 'Application Withdrawn',
+ '3 months, 2 weeks ago']
+
+ driver.find_element("xpath",'//*[@id="content"]/div/div/div[2]/article/section[2]/div[6]').text.split("\n")
+
+ ['william montanha da silva',
+ 'Software Developer',
+ 'Application Declined',
+ '5 months, 4 weeks ago',
+ 'Kayla Bailey']
+
+ driver.get("https://www.volunteerconnector.org/organizations/2927/applications/page-2?status=completed&opportunity=&volunteer=&order=-when")
+
+ driver.find_element("xpath",'//*[@id="content"]/div/div/div[2]/article/section[2]/div[6]').text.split("\n")
+
+ ['Terri Robson',
+ 'Editor',
+ 'Application Declined',
+ '6 months, 2 weeks ago',
+ 'Kayla Bailey']
+
+ driver.find_element("xpath",'//*[@id="content"]/div/div/div[2]/article/section[2]/div[2]').text.split("\n")
+
+ ['Corina Biolan',
+ 'HR Recruiter',
+ 'Application Approved',
+ '6 months, 2 weeks ago',
+ 'Kayla Bailey']
+
+ driver.find_element("xpath",'//*[@id="content"]/div/div/div[2]/article/section[2]/div[16]').text.split("\n")
+
+ ['Nicole Ellement',
+ 'Editor',
+ 'Application Declined',
+ '7 months, 1 week ago',
+ 'Kayla Bailey']
+
+driver.get("https://www.volunteerconnector.org/organizations/2927/applications/page-10?status=completed&opportunity=&volunteer=&order=-when")
+
+driver.find_element("xpath",'//*[@id="content"]/div/div/div[2]/article/section[2]/div[6]').text.split("\n")
+
+['Pari Ismayilova',
+ 'Volunteer Human Resources Manager',
+ 'Application Declined',
+ '12 months ago',
+ 'Jaime Rathor']
+
+ driver.find_element("xpath",'//*[@id="content"]/div/div/div[2]/article/section[2]/div[2]').text.split("\n")
+
+ ['Halley Fulford',
+ 'Editor',
+ 'Application Approved',
+ '11 months ago',
+ 'Debasree Dey']
+
+ driver.find_element("xpath",'//*[@id="content"]/div/div/div[2]/article/section[2]/div[3]').text.split("\n")
+
+ ['Patrick Van Mil', 'Editor Application Withdrawn', '11 months, 3 weeks ago']
